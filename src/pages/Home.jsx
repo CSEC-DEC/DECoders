@@ -13,7 +13,7 @@ function Home() {
       }}
     >
       <div className='flex flex-col text-center p-4'>
-        <div className='text-8xl'>DECoders</div>
+        <div className='text-8xl'>&lt;DECoders/&gt;</div>
         <div className='text-xl mt-2'>
           Coders&apos; community based in <br />
           Defence University Engineering College.

@@ -2,6 +2,8 @@ import React from 'react'
 import Home from './Home'
 import Navbar from '../components/Navbar'
 import About from './About'
+import Join from './Join'
+import Contact from './Contact'
 
 function LandingPage() {
   return (
@@ -9,6 +11,8 @@ function LandingPage() {
         <Navbar />
         <Home />
         <About />
+        <Join />
+        <Contact />
     </div>
   )
 }
