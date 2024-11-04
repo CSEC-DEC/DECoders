@@ -34,13 +34,7 @@ function About() {
         </div>
       </div>
 
-      <a 
-        href="#join" 
-        className='mt-8 px-6 py-3 bg-blue-600 text-white text-lg font-semibold rounded-lg shadow-lg transition duration-300 ease-in-out transform hover:bg-blue-500 hover:scale-105'
-      >
-        Join Us
-      </a>
-
+    
       <style jsx>{`
         @keyframes pop-in {
           0% {

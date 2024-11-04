@@ -7,14 +7,14 @@ function Home() {
       className='bg-slate-950 text-white min-h-screen w-full flex justify-center items-center'
       style={{
         backgroundImage: `url(${bg})`,
-        backgroundSize: '80%',
+        backgroundSize: 'cover',
         backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat', 
+        backgroundRepeat: 'no-repeat',
       }}
     >
       <div className='flex flex-col text-center p-4'>
-        <div className='text-8xl'>&lt;DECoders/&gt;</div>
-        <div className='text-xl mt-2'>
+        <div className='text-4xl md:text-6xl lg:text-8xl font-mono'>&lt;DECoders/&gt;</div>
+        <div className='text-base md:text-lg lg:text-xl mt-2'>
           Coders&apos; community based in <br />
           Defence University Engineering College.
         </div>
