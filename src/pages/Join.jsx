@@ -10,6 +10,8 @@ function Join() {
     { name: "Asher Samuel", role: "Backend Developer | Go goat!", image: logo },
     { name: "Eyuel Kebede", role: "Graphics Designer | Project Manager | All in One!", image: logo },
     { name: "Anduti Gech", role: "Fullstack Developer", image: logo },
+    { name: "Yohanes W.", role: "Python Developer", image: logo },
+
     { name: "Mikee Sword", role: "Frontend Developer", image: logo },
     { name: "Dagim", role: "Fullstack Developer | Django master!", image: logo },
     { name: "Kidus Mekonnen", role: "UI/UX Designer", image: logo },
