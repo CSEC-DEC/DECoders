@@ -31,8 +31,12 @@ function About() {
           <p className='text-lg leading-relaxed'>
             Join us for workshops, hackathons, and networking events that will empower you to grow as a coder and connect with like-minded individuals. Together, let's explore the world of technology and coding!
           </p>
+          
         </div>
+
+        
       </div>
+
 
     
       <style jsx>{`
