@@ -1,9 +1,17 @@
 import React from 'react';
 import bg from '../assets/bg-back.webp';
+import Partner from '../assets/partner.png'
 import { Typewriter } from 'react-simple-typewriter'
+import Marquee from "react-fast-marquee";
+
 
 function Home() {
   const decode =[ '<DECoders/>']
+  const marquee = {
+    width:'70%'
+  }
+ 
+
   return (
     <div
       className='bg-slate-950 text-white min-h-screen w-full flex justify-center items-center'
@@ -32,7 +40,26 @@ function Home() {
           Coders&apos; community based in <br />
           Defence University Engineering College.
         </div>
+
+              {/* marquee section of our partners */}
+      <div className='my-40'>
+        <h1 className='font-mono font-bold text-4xl my-12'>Our Partners</h1>
+          <Marquee style={marquee}>
+            <img src={Partner} alt="Partner Logo" />
+        </Marquee>
       </div>
+
+      </div>
+      <style jsx>{`
+        @keyframes marquee {
+  0% {
+    transform: translateX(100%); /* Start off-screen right */
+  }
+  100% {
+    transform: translateX(-100%); /* End off-screen left */
+  }
+}
+      `}</style>
     </div>
   );
 }

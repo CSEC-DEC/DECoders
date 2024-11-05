@@ -6,15 +6,18 @@ import bab from '../assets/Me.jpg';
 function Join() {
   const navigate = useNavigate();
   const members = [
-    { name: "Asher Samuel", role: "Backend Developer | Go goat!", image: logo },
+    { name: "Haileamlak D.", role: "Fullstack Dev", image: bab },
     { name: "Eyuel Kebede", role: "Graphics Designer | Project Manager | All in One!", image: logo },
     { name: "Anduti Gech", role: "Fullstack Developer", image: logo },
+    { name: "Asher Samuel", role: "Backend Developer | Go goat!", image: logo },
+    
+    
     { name: "Yohanes W.", role: "Python Developer", image: logo },
 
     { name: "Mikias Seife", role: "Frontend Developer", image: logo },
     { name: "Dagim", role: "Fullstack Developer | Django master!", image: logo },
     { name: "Kidus Mekonnen", role: "UI/UX Designer", image: logo },
-    { name: "Haileamlak D.", role: "Fullstack Dev", image: bab },
+    
     { name: "Eureka T.", role: "Backend Developer | Cyber enthusiast", image: logo },
 
   ];
