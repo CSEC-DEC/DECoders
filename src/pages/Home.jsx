@@ -1,6 +1,7 @@
 import React from 'react';
 import bg from '../assets/bg-back.webp';
 import Partner from '../assets/partner.png'
+import Senay from '../assets/senay.jpg'
 import { Typewriter } from 'react-simple-typewriter'
 import Marquee from "react-fast-marquee";
 
@@ -8,7 +9,7 @@ import Marquee from "react-fast-marquee";
 function Home() {
   const decode =[ '<DECoders/>']
   const marquee = {
-    width:'70%'
+    width:'100%'
   }
  
 
@@ -45,7 +46,8 @@ function Home() {
       <div className='my-40'>
         <h1 className='font-mono font-bold text-4xl my-12'>Our Partners</h1>
           <Marquee style={marquee}>
-            <img src={Partner} alt="Partner Logo" />
+            <img src={Partner} alt="Partner Logo" style={{ marginRight: '50%' ,width:'300px', height:'300px'}}/>
+            <img src={Senay} alt="Senay Image" style={{ marginLeft: '50%', width:'300px', height:'300px'}} />
         </Marquee>
       </div>
 
