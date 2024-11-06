@@ -34,6 +34,8 @@ function Navbar() {
         <div className='absolute top-16 left-0 w-full bg-slate-900 shadow-lg md:hidden'>
           <ul className='flex flex-col items-center'>
             <li><a href="#" className='block px-4 py-2 hover:text-gray-400'>Home</a></li>
+          <li><a href="#partners" className='hover:text-gray-400'>Partners</a></li>
+
             <li><a href="#about" className='block px-4 py-2 hover:text-gray-400'>About Us</a></li>
             <li><a href="#join" className='block px-4 py-2 hover:text-gray-400'>Join</a></li>
             <li><a href="#contact" className='block px-4 py-2 hover:text-gray-400'>Contact</a></li>
