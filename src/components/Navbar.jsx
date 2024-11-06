@@ -15,6 +15,8 @@ function Navbar() {
       <div className='hidden md:flex'>
         <ul className='flex gap-6'>
           <li><a href="#" className='hover:text-gray-400'>Home</a></li>
+          <li><a href="#partners" className='hover:text-gray-400'>Partners</a></li>
+
           <li><a href="#about" className='hover:text-gray-400'>About Us</a></li>
           <li><a href="#join" className='hover:text-gray-400'>Join</a></li>
           <li><a href="#contact" className='hover:text-gray-400'>Contact</a></li>
