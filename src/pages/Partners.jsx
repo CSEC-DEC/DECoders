@@ -15,7 +15,7 @@ function Partners() {
   };
 
   return (
-    <div id="partners" className="flex justify-around w-full px-4 py-20 bg-slate-950">
+    <div id="partners" className="flex justify-around w-full px-4 items-center bg-slate-950">
       <div className="my-40 w-full max-w-5xl mx-auto">
         <h1 className="font-mono text-white text-center font-bold text-4xl my-12">
           Our Partners
