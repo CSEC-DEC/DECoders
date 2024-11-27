@@ -4,6 +4,8 @@ import bab from '../assets/Me.jpg';
 import {FaArrowDown,FaArrowUp} from 'react-icons/fa'
 
 function Join() {
+
+
   const members = [
     { name: "Haileamlak D.", role: "Fullstack Dev", image: bab },
     { name: "Eyuel Kebede", role: "Graphics Designer | Project Manager | All in One!", image: logo },
@@ -69,8 +71,8 @@ function Join() {
         ))}
       </div>
 
-      <button onClick={toggleButton} className='my-6 font-mono hover:text-slate-300 active:text-slate-400'>
-          {show ? <FaArrowUp />:<FaArrowDown />}
+      <button onClick={toggleButton} className='my-6 font-mono hover:text-slate-300 active:text-slate-400 text-3xl'>
+          {show ? <FaArrowUp className='hover:-translate-y-1/4 duration-300 delay-800 hover:text-slate-300 active:text-slate-400 hover:text-slate-300 active:text-slate-400'/>:<FaArrowDown className='hover:translate-y-4 duration-300 delay-800'/>}
       </button>
 
 
