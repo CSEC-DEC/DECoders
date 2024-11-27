@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import logo from '../assets/logo.jpg'; 
 import bab from '../assets/Me.jpg';
+import {FaArrowDown,FaArrowUp} from 'react-icons/fa'
 
 function Join() {
   const members = [
@@ -69,7 +70,7 @@ function Join() {
       </div>
 
       <button onClick={toggleButton} className='my-6 font-mono hover:text-slate-300 active:text-slate-400'>
-          {show ? 'Show Less':'Show More'}
+          {show ? <FaArrowUp />:<FaArrowDown />}
       </button>
 
 
